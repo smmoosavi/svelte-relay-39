@@ -1,4 +1,9 @@
 <script lang="ts">
+	import { setRelayEnvironment } from 'svelte-relay';
+	import environment from './environment';
+
+	setRelayEnvironment(environment);
+
 	export let name: string;
 </script>
 
